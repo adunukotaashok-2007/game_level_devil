@@ -30,7 +30,11 @@ const config = {
 
   scale: {
     mode: Phaser.Scale.FIT,
-    autoCenter: Phaser.Scale.CENTER_BOTH
+
+    autoCenter: Phaser.Scale.CENTER_BOTH,
+
+    width: 960,
+    height: 540
   },
 
   scene: [
@@ -42,4 +46,6 @@ const config = {
   ]
 };
 
-new Phaser.Game(config);
+const game = new Phaser.Game(config);
+
+export default game;
