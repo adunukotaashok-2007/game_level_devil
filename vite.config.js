@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/level-devil-clone/"
+  base: "/game_level_devil/"
 });
